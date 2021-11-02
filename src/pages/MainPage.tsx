@@ -79,15 +79,15 @@ const MainPage = (props: { setModifyName: Function }) => {
                      borderBottom={1}
                      paddingX={'3%'} paddingY={'1%'}>
                     <Box display={'flex'} flex={1} justifyContent={'center'}>
-                        <Typography variant={'body1'} fontFamily={'Prompt'}
+                        <Typography variant={'body1'} fontFamily={'Prompt'} textAlign={'center'}
                                     fontSize={18}>{element.shopName}</Typography>
                     </Box>
                     <Box display={'flex'} flex={1} justifyContent={'center'}>
-                        <Typography variant={'body1'} fontFamily={'Prompt'}
+                        <Typography variant={'body1'} fontFamily={'Prompt'} textAlign={'center'}
                                     fontSize={18}>{AREAS.find(testElement => testElement.value === element.area)?.name}</Typography>
                     </Box>
                     <Box display={'flex'} flex={1} justifyContent={'center'}>
-                        <Typography variant={'body1'} fontFamily={'Prompt'}
+                        <Typography variant={'body1'} fontFamily={'Prompt'} textAlign={'center'}
                                     fontSize={18}>{CATEGORIES.find(testElement => testElement.value === element.category)?.name}</Typography>
                     </Box>
                     <Box display={'flex'} flex={1} justifyContent={'center'}>
